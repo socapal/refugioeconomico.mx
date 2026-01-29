@@ -59,31 +59,35 @@ Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servici
 
 ## 🔗 Otros Espacios
 
-- **[Refugio Económico (Substack)](https://sebasdepapel.substack.com)** - Ensayos y divulgación  
-- **[Punto Común](https://puntocomun.mx)** - Casa editorial  
-- **[GitHub](https://github.com/sebasdepapel)** - Código y datos abiertos
+## Otros Espacios
+
+- [Refugio Económico (Substack)](https://refugioeconomico.substack.com/) — Ensayos y divulgación
+- [Punto Común](https://puntocomun.substack.com/) — Casa editorial
+- [GitHub](https://github.com/socapal) — Código y datos abiertos
+- [Publicaciones (Notion)](https://frill-bat-319.notion.site/3944a93270fe4df8b191d9d00048a9e6?v=cb87345890a74f3dbd7ad27c71b673eb)
 
 ---
 
 ## 📖 Cómo citar
 
-**Policy Briefs:**
-```
-Ocampo Palacios, S. (2025). [Título]. Refugio Económico Policy Brief 
-REC-PB-###. Disponible en: https://sebasdepapel.github.io/policy/
-```
+**Policy Briefs**
+```text
+Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Policy Brief. REC-PB-###.
+Disponible en: https://socapal.github.io/refugioeconomico.mx/
+
 
 **Working Papers:**
 ```
-Ocampo Palacios, S. (2025). [Título]. Refugio Económico Working Paper 
-REC-WP-2025-##. Disponible en: https://sebasdepapel.github.io/policy/
+Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Working Paper. REC-WP-2025-##.
+Disponible en: https://socapal.github.io/refugioeconomico.mx/
+
 ```
 
 ---
 
 ## 📬 Contacto
 
-Para colaboraciones, consultas o acceso a datos: [contacto@refugioeconomico.mx](mailto:contacto@refugioeconomico.mx)
+Para colaboraciones, consultas o acceso a datos: [socapal@outlook.com](mailto:socapal@outlook.com)
 
 ---
 
