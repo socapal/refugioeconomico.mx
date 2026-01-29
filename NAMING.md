@@ -1,3 +1,25 @@
+---
+layout: default
+title: Inicio
+---
+
+<div class="hero">
+  <h1>Economía pública para el bien común.</h1>
+  <p>Investigaciones breves y accesibles sobre políticas públicas, vivienda, trabajo y bienestar social—con rigor, datos y vocación cívica.</p>
+</div>
+
+<div class="card">
+  <strong>Leer en Substack:</strong>
+  <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
+  <a href="{{ site.substack_pc }}">Punto Común</a>
+</div>
+
+<div class="card">
+  <strong>Archivo y código:</strong>
+  <a href="{{ site.github_profile }}">GitHub</a> ·
+  <a href="{{ site.notion_publications }}">Publicaciones (Notion)</a>
+</div>
+
 # Convenciones de Naming - Refugio Económico Policy
 
 **Versión:** 1.0  

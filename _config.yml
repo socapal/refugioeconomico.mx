@@ -1,0 +1,20 @@
+title: Refugio Económico
+description: Economía pública para el bien común.
+url: "https://socapal.github.io"
+baseurl: "/refugioeconomico.mx"
+
+email: socapal@outlook.com
+
+substack_rec: "https://refugioeconomico.substack.com/"
+substack_pc: "https://puntocomun.substack.com/"
+github_profile: "https://github.com/socapal"
+notion_publications: "https://frill-bat-319.notion.site/3944a93270fe4df8b191d9d00048a9e6?v=cb87345890a74f3dbd7ad27c71b673eb"
+
+url: "https://socapal.github.io"
+baseurl: "/refugioeconomico.mx"
+
+
+header_pages:
+  - policy_briefs.md
+  - working_papers.md
+  - about.md

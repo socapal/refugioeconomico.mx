@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Public+Sans:wght@300;400;500;600&family=Roboto+Condensed:wght@400;500;600&display=swap');
+
+:root{
+  --bg: #F6F5EE;
+  --rec: #013D1F;
+  --accent: #DB647F;
+  --ink: #16161D;
+  --paper: rgba(255,255,255,.55);
+}
+
+html, body { height: 100%; }
+body{
+  margin:0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Public Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+a{ color: var(--rec); text-decoration: none; border-bottom: 1px solid rgba(1,61,31,.25); }
+a:hover{ color: var(--accent); border-bottom-color: rgba(219,100,127,.35); }
+
+.container{ max-width: 980px; margin: 0 auto; padding: 28px 18px 64px; }
+
+.site-header{
+  position: sticky; top:0;
+  backdrop-filter: blur(10px);
+  background: rgba(246,245,238,.85);
+  border-bottom: 1px solid rgba(22,22,29,.08);
+  z-index: 20;
+}
+.navbar{ display:flex; align-items:center; gap:18px; padding: 14px 18px; max-width: 980px; margin:0 auto; }
+.brand{ display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:.2px; }
+.brand img{ height: 28px; width:auto; display:block; }
+.brand span{ font-family: "Lora", serif; font-size: 18px; color: var(--ink); }
+
+.nav{ margin-left:auto; display:flex; gap:14px; flex-wrap:wrap; }
+.nav a{ font-family: "Roboto Condensed", sans-serif; text-transform: uppercase; font-size: 13px; letter-spacing: .08em; border-bottom: 0; padding: 6px 8px; border-radius: 10px; }
+.nav a:hover{ background: rgba(219,100,127,.10); }
+
+.hero{
+  background: var(--paper);
+  border: 1px solid rgba(22,22,29,.08);
+  border-radius: 18px;
+  padding: 22px 20px;
+  margin: 18px 0 22px;
+}
+.hero h1{
+  margin: 0 0 10px;
+  font-family: "Lora", serif;
+  font-size: 34px;
+  line-height: 1.1;
+  color: var(--rec);
+}
+.hero p{ margin: 0; max-width: 72ch; }
+
+h2,h3{
+  font-family: "Lora", serif;
+  color: var(--ink);
+  margin-top: 26px;
+}
+.card{
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(22,22,29,.08);
+  border-radius: 16px;
+  padding: 16px 16px;
+  margin: 14px 0;
+}
+
+.footer{
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(22,22,29,.08);
+  font-size: 14px;
+  opacity: .85;
+}
