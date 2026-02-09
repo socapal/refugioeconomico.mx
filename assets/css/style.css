@@ -20,7 +20,8 @@ body{
 a{ color: var(--rec); text-decoration: none; border-bottom: 1px solid rgba(1,61,31,.25); }
 a:hover{ color: var(--accent); border-bottom-color: rgba(219,100,127,.35); }
 
-.container{ max-width: 980px; margin: 0 auto; padding: 28px 18px 64px; }
+.site-shell{ max-width: 980px; margin: 0 auto; padding: 0 18px; }
+.site-main{ padding: 28px 0 64px; }
 
 .site-header{
   position: sticky; top:0;
@@ -29,7 +30,7 @@ a:hover{ color: var(--accent); border-bottom-color: rgba(219,100,127,.35); }
   border-bottom: 1px solid rgba(22,22,29,.08);
   z-index: 20;
 }
-.navbar{ display:flex; align-items:center; gap:18px; padding: 14px 18px; max-width: 980px; margin:0 auto; }
+.navbar{ display:flex; align-items:center; gap:18px; padding: 14px 0; }
 .brand{ display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:.2px; }
 .brand img{ height: 28px; width:auto; display:block; }
 .brand span{ font-family: "Lora", serif; font-size: 18px; color: var(--ink); }
@@ -67,17 +68,18 @@ h2,h3{
   margin: 14px 0;
 }
 
+.site-footer{
+  padding: 0 0 40px;
+}
 .footer{
-  margin-top: 40px;
+  margin-top: 24px;
   padding-top: 16px;
   border-top: 1px solid rgba(22,22,29,.08);
   font-size: 14px;
   opacity: .85;
 }
 
-/* --- Markdown spacing + “indent fixes” --- */
-p { max-width: 78ch; }
-
+/* --- Markdown spacing --- */
 hr{
   border: 0;
   border-top: 1px solid rgba(22,22,29,.10);
