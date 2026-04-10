@@ -51,8 +51,8 @@ Los resultados preliminares muestran efectos heterogéneos por categoría de ANP
 **Datos:** INEGI, CONANP, CONEVAL (2000-2020)
 
 <div class="publication-links">
-  <a href="../assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf" class="btn">📄 Descargar PDF</a>
-  <a href="../projects/anps-v1" class="btn btn-secondary">📋 Página del proyecto</a>
+  <a href="{{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }}" class="btn">📄 Descargar PDF</a>
+  <a href="{{ '/projects/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
   <a href="https://github.com/sebasdepapel/anps-impacto" class="btn btn-secondary">💻 Repositorio GitHub</a>
 </div>
 
@@ -73,8 +73,7 @@ Los resultados preliminares muestran efectos heterogéneos por categoría de ANP
 
 ```
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico Working Paper 
-REC-WP-2025-01. Disponible en: https://sebasdepapel.github.io/policy/
-assets/pdfs/REC-WP-2025-01-[slug]-v1.0.pdf
+REC-WP-YYYY-##. Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-WP-YYYY-##-[slug]-v1.0.pdf' | relative_url }}
 ```
 
 **Para versiones publicadas en RePEc:**

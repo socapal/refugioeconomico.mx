@@ -33,9 +33,9 @@ Esta investigación evalúa el impacto causal de las Áreas Naturales Protegidas
 ## 📥 Descargas
 
 <div class="publication-links">
-  <a href="../../assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf" class="btn">📄 Working Paper (PDF)</a>
-  <a href="../../assets/pdfs/REC-PB-001-anps-v1.0.pdf" class="btn btn-secondary">📋 Policy Brief</a>
-  <a href="../../assets/pdfs/REC-OP-001-anps-v1.0.pdf" class="btn btn-secondary">📊 One-pager</a>
+  <a href="{{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }}" class="btn">📄 Working Paper (PDF)</a>
+  <a href="{{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}" class="btn btn-secondary">📋 Policy Brief</a>
+  <a href="{{ '/assets/pdfs/REC-OP-001-anps-v1.0.pdf' | relative_url }}" class="btn btn-secondary">📊 One-pager</a>
   <a href="https://refugioeconomico.mx/anps-bienestar" class="btn btn-secondary">📝 Post divulgativo</a>
 </div>
 
@@ -113,7 +113,7 @@ Los efectos positivos aparecen después de 5-7 años de la declaratoria y persis
 **Áreas Naturales Protegidas:**
 - CONANP - Comisión Nacional de Áreas Naturales Protegidas
 - Shapefile de polígonos de ANPs (1900-2020)
-- [Descargar datos](../../data/anps-v1/)
+- [Descargar datos]({{ '/data/anps-v1/' | relative_url }})
 
 **Bienestar local:**
 - INEGI - Censos de Población y Vivienda (2000, 2010, 2020)
@@ -159,13 +159,13 @@ anps-impacto/
 ### Publicaciones
 
 1. **Working Paper** (REC-WP-2026-01)  
-   [Descargar PDF](../../assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf)
+   [Descargar PDF]({{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }})
 
 2. **Policy Brief** (REC-PB-001)  
-   [Descargar PDF](../../assets/pdfs/REC-PB-001-anps-v1.0.pdf)
+   [Descargar PDF]({{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }})
 
 3. **One-pager institucional** (REC-OP-001)  
-   [Descargar PDF](../../assets/pdfs/REC-OP-001-anps-v1.0.pdf)
+   [Descargar PDF]({{ '/assets/pdfs/REC-OP-001-anps-v1.0.pdf' | relative_url }})
 
 ### Materiales adicionales
 
@@ -176,7 +176,7 @@ anps-impacto/
    [Ver en GitHub](https://github.com/sebasdepapel/anps-impacto/blob/main/DATA.md)
 
 6. **Presentación ejecutiva**  
-   [Descargar PPTX](../../assets/presentations/REC-ANPs-deck.pptx)
+   [Descargar PPTX]({{ '/assets/presentations/REC-ANPs-deck.pptx' | relative_url }})
 
 ---
 
@@ -203,14 +203,14 @@ anps-impacto/
 Ocampo Palacios, S. (2026). Áreas Naturales Protegidas y bienestar 
 local en México: Un análisis de impacto causal. Refugio Económico 
 Working Paper REC-WP-2026-01. 
-https://policy.refugioeconomico.mx/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf
+{{ site.url }}{{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }}
 ```
 
 ### Policy Brief
 ```
 Ocampo Palacios, S. (2025). Áreas Naturales Protegidas y bienestar 
 local en México. Refugio Económico Policy Brief REC-PB-001. 
-https://policy.refugioeconomico.mx/assets/pdfs/REC-PB-001-anps-v1.0.pdf
+{{ site.url }}{{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}
 ```
 
 ### Código
@@ -263,4 +263,4 @@ Se agradecen comentarios, sugerencias y preguntas sobre este proyecto.
 
 ---
 
-<small>[← Volver a Working Papers](../../working-papers) | [Ver todos los proyectos](../../)</small>
+<small>[← Volver a Working Papers]({{ '/working-papers/' | relative_url }}) | [Ver todos los proyectos]({{ '/' | relative_url }})</small>

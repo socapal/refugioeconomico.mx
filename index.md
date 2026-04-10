@@ -30,12 +30,12 @@ Refugio Económico es un espacio de análisis riguroso sobre economía pública,
 
 ## 📊 Última Publicación
 
-### [Áreas Naturales Protegidas y bienestar local en México](projects/anps-v1)
+### [Áreas Naturales Protegidas y bienestar local en México]({{ '/projects/anps-v1/' | relative_url }})
 **Policy Brief REC-PB-001** · Diciembre 2025
 
 Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servicios básicos en localidades cercanas. Efectos heterogéneos por categoría de protección.
 
-[📄 Policy Brief (PDF)](assets/pdfs/REC-PB-001-anps-v1.0.pdf) · [📑 Working Paper](assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf) · [📋 Proyecto completo](projects/anps-v1) · [📝 Post divulgativo](https://refugioeconomico.mx/anps-bienestar)
+[📄 Policy Brief (PDF)]({{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}) · [📑 Working Paper]({{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }}) · [📋 Proyecto completo]({{ '/projects/anps-v1/' | relative_url }}) · [📝 Post divulgativo](https://refugioeconomico.mx/anps-bienestar)
 
 ---
 
@@ -45,19 +45,17 @@ Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servici
   <div class="series-card">
     <h3>Policy Briefs</h3>
     <p>Documentos de 4-6 páginas con hallazgos y recomendaciones accionables para tomadores de decisión.</p>
-    <a href="policy-briefs" class="btn">Ver todos →</a>
+    <a href="{{ '/policy-briefs/' | relative_url }}" class="btn">Ver todos →</a>
   </div>
 
   <div class="series-card">
     <h3>Working Papers</h3>
     <p>Investigaciones técnicas con metodología detallada, análisis completo y evidencia replicable.</p>
-    <a href="working-papers" class="btn">Ver todos →</a>
+    <a href="{{ '/working-papers/' | relative_url }}" class="btn">Ver todos →</a>
   </div>
 </div>
 
 ---
-
-## 🔗 Otros Espacios
 
 ## Otros Espacios
 
@@ -73,14 +71,14 @@ Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servici
 **Policy Briefs**
 ```text
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Policy Brief. REC-PB-###.
-Disponible en: https://socapal.github.io/refugioeconomico.mx/
-
-
-**Working Papers:**
+Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | relative_url }}
 ```
-Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Working Paper. REC-WP-2025-##.
-Disponible en: https://socapal.github.io/refugioeconomico.mx/
 
+**Working Papers**
+
+```text
+Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Working Paper. REC-WP-YYYY-##.
+Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-WP-YYYY-##-[slug]-v1.0.pdf' | relative_url }}
 ```
 
 ---
