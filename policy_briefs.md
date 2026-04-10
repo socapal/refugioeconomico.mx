@@ -29,7 +29,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 
 ## 📄 REC-PB-001 · Diciembre 2025
 
-### [Áreas Naturales Protegidas y bienestar local en México](../projects/anps-v1)
+### [Áreas Naturales Protegidas y bienestar local en México]({{ '/projects/anps-v1/' | relative_url }})
 
 **Evaluación causal del impacto de las ANPs sobre indicadores de bienestar local**
 
@@ -50,8 +50,8 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 **JEL Codes:** Q23, Q28, I32, R11
 
 <div class="publication-links">
-  <a href="../assets/pdfs/REC-PB-001-anps-v1.0.pdf" class="btn">📄 Descargar PDF</a>
-  <a href="../projects/anps-v1" class="btn btn-secondary">📋 Página del proyecto</a>
+  <a href="{{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}" class="btn">📄 Descargar PDF</a>
+  <a href="{{ '/projects/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
   <a href="https://refugioeconomico.mx/anps-bienestar" class="btn btn-secondary">📝 Post divulgativo</a>
 </div>
 
@@ -72,7 +72,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 
 ```
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico Policy Brief 
-REC-PB-###. https://policy.refugioeconomico.mx/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf
+REC-PB-###. Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | relative_url }}
 ```
 
 ---

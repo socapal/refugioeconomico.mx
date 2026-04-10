@@ -47,8 +47,8 @@ refugio-economico-policy/
 ├── NAMING.md                     # Convenciones oficiales (LEER PRIMERO)
 ├── _config.yml                    # Configuración Jekyll
 ├── index.md                       # Página principal
-├── policy-briefs.md              # Lista de policy briefs
-├── working-papers.md             # Lista de working papers
+├── policy_briefs.md              # Lista de policy briefs
+├── working_papers.md             # Lista de working papers
 ├── about.md                      # Sobre REC
 ├── projects/                     # Páginas de proyectos
 │   └── anps-v1.md               # Proyecto ANPs v1.0
@@ -133,7 +133,7 @@ assets/pdfs/REC-PB-002-[slug]-v1.0.pdf
 ```markdown
 ## 📄 REC-PB-002 · Enero 2026
 
-### [Título del Brief](../projects/[slug])
+### [Título del Brief]({{ '/projects/[slug]/' | relative_url }})
 
 **Subtítulo descriptivo**
 
@@ -153,8 +153,8 @@ assets/pdfs/REC-PB-002-[slug]-v1.0.pdf
 **JEL Codes:** X00, Y11
 
 <div class="publication-links">
-  <a href="../assets/pdfs/REC-PB-002-[slug]-v1.0.pdf" class="btn">📄 PDF</a>
-  <a href="../projects/[slug]" class="btn btn-secondary">📋 Proyecto</a>
+  <a href="{{ '/assets/pdfs/REC-PB-002-[slug]-v1.0.pdf' | relative_url }}" class="btn">📄 PDF</a>
+  <a href="{{ '/projects/[slug]/' | relative_url }}" class="btn btn-secondary">📋 Proyecto</a>
 </div>
 
 ---
@@ -224,8 +224,8 @@ Edita en `_config.yml`:
 ```yaml
 header_pages:
   - index.md
-  - policy-briefs.md
-  - working-papers.md
+  - policy_briefs.md
+  - working_papers.md
   - about.md
 ```
 
@@ -255,7 +255,7 @@ bundle add jekyll
 bundle exec jekyll serve
 
 # Abrir en navegador
-open http://localhost:4000/policy/
+open http://localhost:4000/
 ```
 
 ---
@@ -283,11 +283,11 @@ Antes de hacer push de una nueva publicación:
 
 **Los estilos no se aplican:**
 - Asegúrate de que `assets/css/style.css` existe
-- Verifica que `_config.yml` tenga la ruta correcta
+- Verifica que `_config.yml` use `url: "https://policy.refugioeconomico.mx"` y `baseurl: ""`
 
 **Los links no funcionan:**
-- Usa rutas relativas: `../assets/` no `/assets/`
-- Verifica que `baseurl` en `_config.yml` sea correcto
+- Usa `{{ '/assets/...' | relative_url }}` para assets y `{{ '/ruta/' | relative_url }}` para navegación interna
+- Verifica que exista el archivo `CNAME` con `policy.refugioeconomico.mx`
 
 ---
 
