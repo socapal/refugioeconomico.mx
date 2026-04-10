@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="navbar">
+      <div class="wrapper navbar">
         <a class="brand" href="{{ '/' | relative_url }}">
           <img src="{{ '/assets/img/logo-rec.png' | relative_url }}" alt="Refugio Económico">
           <span>{{ site.title }}</span>
@@ -24,7 +24,7 @@
       </div>
     </header>
 
-    <main class="container">
+    <main class="wrapper container">
       {{ content }}
       <div class="footer">
         <div>© {{ "now" | date: "%Y" }} {{ site.title }}.</div>
