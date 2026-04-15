@@ -50,7 +50,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 **JEL Codes:** Q23, Q28, I32, R11
 
 <div class="publication-links">
-  <a href="{{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}" class="btn">📄 Descargar PDF</a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Descargar PDF</a>
   <a href="{{ '/projects/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
   <a href="https://refugioeconomico.mx/anps-bienestar" class="btn btn-secondary">📝 Post divulgativo</a>
 </div>
@@ -72,7 +72,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 
 ```
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico Policy Brief 
-REC-PB-###. Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | relative_url }}
+REC-PB-###. Disponible en: {{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | absolute_url }}
 ```
 
 ---

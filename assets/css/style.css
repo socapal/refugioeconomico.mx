@@ -123,3 +123,57 @@ h3{ margin-top: 18px; }
 /* Links look more “editorial” */
 a{ border-bottom: 1px solid rgba(1,61,31,.22); }
 a:hover{ border-bottom-color: rgba(219,100,127,.45); }
+
+
+/* Components used across index and series pages */
+.btn{
+  display:inline-block;
+  padding:8px 12px;
+  border-radius:10px;
+  border:1px solid rgba(1,61,31,.25);
+  background:#fff;
+  font-weight:600;
+  border-bottom:1px solid rgba(1,61,31,.25);
+}
+.btn:hover{
+  background: rgba(219,100,127,.10);
+}
+.btn-secondary{
+  background: rgba(1,61,31,.04);
+}
+.series-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap:16px;
+}
+.series-card{
+  background: rgba(255,255,255,.65);
+  border:1px solid rgba(22,22,29,.08);
+  border-radius:14px;
+  padding:14px;
+}
+.publication-meta{
+  color: rgba(22,22,29,.78);
+  font-size: .95rem;
+  margin: 10px 0 14px;
+}
+.publication-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:14px 0;
+}
+.info-box{
+  background: rgba(255,255,255,.55);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.badge{
+  display:inline-block;
+  padding:1px 8px;
+  border-radius:999px;
+  background: rgba(1,61,31,.12);
+  font-size:.78rem;
+  font-weight:600;
+}
