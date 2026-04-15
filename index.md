@@ -35,7 +35,7 @@ Refugio Económico es un espacio de análisis riguroso sobre economía pública,
 
 Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servicios básicos en localidades cercanas. Efectos heterogéneos por categoría de protección.
 
-[📄 Policy Brief (PDF)]({{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | relative_url }}) · [📑 Working Paper]({{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | relative_url }}) · [📋 Proyecto completo]({{ '/projects/anps-v1/' | relative_url }}) · [📝 Post divulgativo](https://refugioeconomico.mx/anps-bienestar)
+[📄 Policy Brief (PDF)]({{ '/downloads/anps-v1/' | relative_url }}) · [📑 Working Paper]({{ '/downloads/anps-v1/' | relative_url }}) · [📋 Proyecto completo]({{ '/projects/anps-v1/' | relative_url }}) · [📝 Post divulgativo](https://refugioeconomico.mx/anps-bienestar)
 
 ---
 
@@ -71,14 +71,14 @@ Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servici
 **Policy Briefs**
 ```text
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Policy Brief. REC-PB-###.
-Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | relative_url }}
+Disponible en: {{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | absolute_url }}
 ```
 
 **Working Papers**
 
 ```text
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico · Working Paper. REC-WP-YYYY-##.
-Disponible en: {{ site.url }}{{ '/assets/pdfs/REC-WP-YYYY-##-[slug]-v1.0.pdf' | relative_url }}
+Disponible en: {{ '/assets/pdfs/REC-WP-YYYY-##-[slug]-v1.0.pdf' | absolute_url }}
 ```
 
 ---
