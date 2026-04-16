@@ -5,28 +5,21 @@ permalink: /projects/anps-v1/
 ---
 
 # Áreas Naturales Protegidas y bienestar local en México
-## Un análisis de impacto causal
+## Impacto de las áreas naturales protegidas en la marginación y el ingreso municipal
 
 <div class="publication-meta">
-  <span class="code">Proyecto ANPs v1.0</span> · 
+  <span class="code">Proyecto ANPs V.1.0</span> · 
   Sebastián Ocampo Palacios · 
-  Diciembre 2025
+  Septiembre 2022
 </div>
 
 ---
 
 ## Resumen
 
-Esta investigación evalúa el impacto causal de las Áreas Naturales Protegidas (ANPs) sobre indicadores de bienestar local en México, utilizando un diseño de diferencias en diferencias con tratamiento escalonado. El análisis cubre el período 2000-2020 y examina localidades en un radio de 50km de las ANPs, comparando su evolución en marginación, ingreso per cápita y acceso a servicios básicos.
+En este trabajo analizamos el impacto de las Áreas Naturales Protegidas en los ingresos per cápita y el índice de marginación de la población cercana. Los resultados están construidos en dos capítulos: en el primero, presentamos un panorama actual sobre las áreas protegidas y ofrecemos herramientas teóricas para su análisis. En el segundo capítulo presentamos un análisis empírico que identifica los efectos de las ANPs en la marginación y el ingreso de los municipios que están a una distancia de 10 kilómetros. El **resultado principal sugiere que  la cercanía a estos espacios genera una reducción de la marginación y  un aumento en los ingresos, pero este efecto está sujeto a la categoría de conservación.**
+Estos resultados permiten interpretar a las ANPs no solo como instrumentos de conservación ambiental, sino como **intervenciones territoriales con efectos económicos medibles sobre el bienestar** de la población.
 
----
-
-## 📊 En una mirada
-
-- **Efecto promedio:** Las ANPs mejoran marginación e ingreso en localidades cercanas
-- **Heterogeneidad por categoría:** Categorías restrictivas (Reservas de la Biosfera) muestran efectos negativos
-- **Mecanismo:** Tensión entre conservación estricta y desarrollo económico local
-- **Implicación:** La política de ANPs requiere mayor diferenciación por categoría y contexto local
 
 ---
 
@@ -45,37 +38,19 @@ Esta investigación evalúa el impacto causal de las Áreas Naturales Protegidas
 
 ### Diseño de investigación
 
-**Método:** Diferencias en diferencias con tratamiento escalonado (Callaway-Sant'Anna, 2021)
+**Método:** Emparejamiento.
 
-**Tratamiento:** Declaratoria de ANP como evento que afecta localidades en un radio de 50km
+**Tratamiento:** Cercanía con Áreas Naturales Protegidas, que a su vez modifican el uso de recursos localmente. Estos espacios protegidos son  creados  bajo  un  decreto que  agrupa  consideraciones técnicas, políticas y sociales respecto de su valor para la identidad (nacional e  indígena) y su valor ambiental. En consecuencia,  las áreas suelen establecerse en territorios  que comparten características según la categoría bajo la que se establecerá su protección
 
 **Unidad de análisis:** Localidad-año
 
-**Período:** 2000-2020
+**Período:** 2020
 
-**Outcomes:**
+**Variables de medición:**
 - Índice de marginación (CONAPO)
 - Ingreso per cápita ajustado
-- Acceso a servicios básicos (agua, electricidad, drenaje)
 
-### Supuestos clave
-
-1. **Tendencias paralelas:** Validado pre-tratamiento
-2. **No anticipación:** Las declaratorias no se anticipan años antes
-3. **SUTVA:** El tratamiento de una localidad no afecta a otras (validado con buffers)
-
-### Especificación
-
-El modelo estima efectos dinámicos por cohorte y tiempo relativo:
-
-```
-ATT(g,t) = E[Y_t(g) - Y_t(∞) | G_g = 1] - E[Y_t(g) - Y_t(∞) | G_g = 0]
-```
-
-Donde:
-- `g` = cohorte de tratamiento (año de declaratoria)
-- `t` = tiempo relativo al tratamiento
-- `G_g` = indicador de pertenencia a cohorte
+**Supuestos clave:** Identificamos evidencia de soporte común e inconfundibilidad (las características del municipio no afectan municipio).
 
 ---
 
@@ -99,10 +74,6 @@ Donde:
 | Santuario | -0.08 | +3.1% |
 
 \*p<0.10, \*\*p<0.05
-
-### Dinámica temporal
-
-Los efectos positivos aparecen después de 5-7 años de la declaratoria y persisten hasta el final del período de análisis (t+10).
 
 ---
 
@@ -132,24 +103,47 @@ El código completo para replicar todos los análisis está disponible en GitHub
 
 **Estructura del repositorio:**
 ```
-anps-impacto/
-├── 01_data/
-│   ├── raw/              # Datos originales
-│   └── processed/        # Datos procesados
-├── 02_code/
-│   ├── 01_clean.R       # Limpieza y preparación
-│   ├── 02_analysis.R    # Estimación DiD
-│   ├── 03_figures.R     # Gráficas
-│   └── 04_tables.R      # Tablas
-├── 03_output/
-│   ├── figures/
-│   └── tables/
-└── README.md
+.
+├── README.md
+├── MAPA_DEL_REPO.md
+├── LICENSE
+├── anps.csv
+├── docs/
+│   ├── DIARIO_INVESTIGACION.md
+│   ├── DECISION_LOG.md
+│   ├── OPEN_QUESTIONS.md
+│   ├── CHANGELOG_NARRATIVO.md
+│   └── CONVENCIONES.md
+├── datasets-brutas/
+│   ├── dummies-cercanas.csv
+│   ├── misc.xlsx
+│   ├── agebs/
+│   │   ├── _conjunto_de_datos/
+│   │   ├── _metadatos/
+│   │   └── _diccionario_de_datos/
+│   └── shp/
+│       ├── anps/
+│       └── mun/
+├── datos-procesados/
+│   ├── tablas-r/
+│   ├── datos.xlsx
+│   └── summary.csv
+├── parques-recreacion_código/
+│   ├── 0. Procesamiento-datos.R
+│   ├── 1. Estadística-descriptiva.R
+│   ├── 2. Matching-Regresiones.r
+│   └── 3. Visualizaciones-y-mapas.R
+├── ilustraciones/
+│   └── Ilustraciones-finales/
+├── presentacion-final/
+└── scripts/
+    └── utils/
+        └── generate_repo_map.sh
 ```
 
 **Requerimientos:**
 - R 4.1+
-- Paquetes: `did`, `tidyverse`, `sf`, `fixest`, `modelsummary`
+- Paquetes: `sf`, `tidyverse`, `MatchIt`, `stargazer`, `clubSandwich`. 
 - Tiempo de ejecución: ~45 minutos
 
 ---
@@ -158,66 +152,56 @@ anps-impacto/
 
 ### Publicaciones
 
-1. **Working Paper** (REC-WP-2026-01)  
-   [Descargar PDF]({{ '/downloads/anps-v1/' | relative_url }})
-
-2. **Policy Brief** (REC-PB-001)  
-   [Descargar PDF]({{ '/downloads/anps-v1/' | relative_url }})
+1. **Documentación de Investigación** (REC-DI-2022-09)  
+   [Descargar PDF]( http://hdl.handle.net/11651/5294)
 
 3. **One-pager institucional** (REC-OP-001)  
-   [Descargar PDF]({{ '/downloads/anps-v1/' | relative_url }})
+ En desarrollo. 
 
 ### Materiales adicionales
 
 4. **Post divulgativo** (Refugio Económico)  
-   [Leer en línea](https://refugioeconomico.mx/anps-bienestar)
+ En desarrollo. 
 
 5. **Ficha técnica de datos**  
-   [Ver en GitHub](https://github.com/sebasdepapel/anps-impacto/blob/main/DATA.md)
+ En desarrollo. 
 
 6. **Presentación ejecutiva**  
-   [Descargar PPTX]({{ '/downloads/anps-v1/' | relative_url }})
+  [Ver en GitHub](https://github.com/socapal/impactos-anps_2020/blob/main/presentacion-final/examen-de-titulacion_21.09.22.pdf)
 
 ---
 
+
+
 ## 🔄 Versiones y cambios
 
-### v1.0 (Diciembre 2025) - Actual
-- Versión inicial completa
-- Análisis 2000-2020
+### v1.0 (Septiembre 2022) - Actual
+- Versión inicial.
+- Análisis con información de 2020.
 - Todas las categorías de ANPs
 
 ### Próximas versiones
 
-**v1.1 (planeada para Febrero 2026):**
-- Extensión a 2023 con datos intercensales
-- Análisis de mecanismos (empleo, turismo)
-- Robustez con matching espacial
+**v2.0 (en diseño durante  2026-2027):**
+- Incorporar una discusión conceptual sobre la diferencia entre gasto presupuestal e impacto económico, retomada a partir de un seminario de investigación reciente: revalorizar la discusión hacia los beneficios que generan estos tipos de intervención respecto del gasto que requiere su implementación y operación. 
+- Desarrollar una interpretación económica de las ANPs como bienes públicos territoriales que generan externalidades sobre el bienestar local.
+- Explorar el concepto de costo de oportunidad del uso del suelo como elemento central para entender la conservación.
+- Introducir de forma exploratoria el enfoque de curvas de costo marginal de conservación (MAC) como herramienta para evaluar decisiones de política pública.
+- Integrar los resultados empíricos existentes dentro de una narrativa más amplia sobre evaluación económica de políticas públicas territoriales.
 
 ---
 
 ## 📖 Cómo citar
 
-### Working Paper
+### Documento de Investigación
 ```
-Ocampo Palacios, S. (2026). Áreas Naturales Protegidas y bienestar 
-local en México: Un análisis de impacto causal. Refugio Económico 
-Working Paper REC-WP-2026-01. 
-{{ '/assets/pdfs/REC-WP-2026-01-anps-v1.0.pdf' | absolute_url }}
-```
-
-### Policy Brief
-```
-Ocampo Palacios, S. (2025). Áreas Naturales Protegidas y bienestar 
-local en México. Refugio Económico Policy Brief REC-PB-001. 
-{{ '/assets/pdfs/REC-PB-001-anps-v1.0.pdf' | absolute_url }}
-```
+Ocampo Palacios, Sebastián. "Impacto de las áreas naturales protegidas en la marginación y el ingreso municipal". Tesis de licenciatura. Centro de Investigación y Docencia Económicas, 2022. http://hdl.handle.net/11651/5294
+``````
 
 ### Código
 ```
-Ocampo Palacios, S. (2025). Replication code for "Áreas Naturales 
-Protegidas y bienestar local en México". GitHub repository. 
-https://github.com/sebasdepapel/anps-impacto
+Ocampo Palacios, S. (2026). Código replicable para  "Impacto de las áreas naturales protegidas en la marginación y el ingreso municipa". Repositorio de Github. 
+https://github.com/socapal/impactos-anps_2020
 ```
 
 ---
@@ -229,37 +213,20 @@ https://github.com/sebasdepapel/anps-impacto
 Las ANPs son porciones terrestres o acuáticas del territorio nacional representativas de los diversos ecosistemas, destinadas a conservación, investigación científica y educación ambiental.
 
 **Categorías principales en México:**
-- Reservas de la Biosfera (más restrictivas)
+- Reservas de la Biosfera
 - Parques Nacionales
+- Monumentos Naturales
+- Áreas de Protección de Recursos Naturales
 - Áreas de Protección de Flora y Fauna
 - Santuarios
-
-### Diferencias en diferencias escalonado
-
-Extensión del método clásico de DiD que permite:
-- Tratamientos que ocurren en distintos momentos
-- Efectos heterogéneos por cohorte y tiempo
-- Estimación robusta sin supuesto de efectos paralelos
-
-**Referencia clave:** Callaway, B., & Sant'Anna, P. H. (2021). Difference-in-differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230.
-
-### Bibliografía esencial
-
-1. Andam, K. S., et al. (2008). Measuring the effectiveness of protected area networks in reducing deforestation. *PNAS*, 105(42), 16089-16094.
-
-2. Ferraro, P. J., & Hanauer, M. M. (2014). Quantifying causal mechanisms to determine how protected areas affect poverty through changes in ecosystem services. *PNAS*, 111(11), 4332-4337.
-
-3. Sims, K. R. (2010). Conservation and development: Evidence from Thai protected areas. *Journal of Environmental Economics and Management*, 60(2), 94-114.
-
----
 
 ## 💬 Comentarios y contacto
 
 Se agradecen comentarios, sugerencias y preguntas sobre este proyecto.
 
-**Contacto:** [contacto@refugioeconomico.mx](mailto:contacto@refugioeconomico.mx)
+**Contacto:** [socapal@outlook.com](mailto:socapal@outlook.com)
 
-**Discusión:** Abre un issue en el [repositorio de GitHub](https://github.com/sebasdepapel/anps-impacto/issues)
+**Discusión:** Abre un issue en el [repositorio de GitHub](https://github.com/socapal/impactos-anps_2020/issues)
 
 ---
 
