@@ -53,7 +53,39 @@ Evaluación causal del impacto de las ANPs sobre marginación, ingreso y servici
     <p>Investigaciones técnicas con metodología detallada, análisis completo y evidencia replicable.</p>
     <a href="{{ '/working-papers/' | relative_url }}" class="btn">Ver todos →</a>
   </div>
+
+  <div class="series-card">
+    <h3>Newsletter</h3>
+    <p>Textos breves, ensayos y notas de divulgación publicados en Substack.</p>
+    <a href="{{ '/newsletter/' | relative_url }}" class="btn">Ver newsletter →</a>
+  </div>
 </div>
+
+<section id="newsletter" class="substack-section card">
+  <div class="substack-heading">
+    <p class="substack-eyebrow">Newsletter</p>
+    <h2>Últimos textos de Refugio Económico</h2>
+    <p class="substack-intro">
+      Ensayos, notas y textos recientes publicados en Substack.
+    </p>
+  </div>
+
+  <div
+    class="substack-feed-embed"
+    data-substack-url="{{ site.substack_rec }}"
+    data-posts="3"
+    data-show-images="true"
+    data-show-dates="true">
+  </div>
+
+  <p class="feed-fallback-link">
+    <a href="{{ site.substack_rec }}" target="_blank" rel="noopener noreferrer">
+      Ver todos los textos en Substack →
+    </a>
+  </p>
+</section>
+
+<script src="{{ '/assets/js/substack-feed.js' | relative_url }}" defer></script>
 
 ---
 
