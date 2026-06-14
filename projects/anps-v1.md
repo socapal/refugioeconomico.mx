@@ -20,6 +20,14 @@ permalink: /projects/anps-v1/
 En este trabajo analizamos el impacto de las Áreas Naturales Protegidas en los ingresos per cápita y el índice de marginación de la población cercana. Los resultados están construidos en dos capítulos: en el primero, presentamos un panorama actual sobre las áreas protegidas y ofrecemos herramientas teóricas para su análisis. En el segundo capítulo presentamos un análisis empírico que identifica los efectos de las ANPs en la marginación y el ingreso de los municipios que están a una distancia de 10 kilómetros. El **resultado principal sugiere que  la cercanía a estos espacios genera una reducción de la marginación y  un aumento en los ingresos, pero este efecto está sujeto a la categoría de conservación.**
 Estos resultados permiten interpretar a las ANPs no solo como instrumentos de conservación ambiental, sino como **intervenciones territoriales con efectos económicos medibles sobre el bienestar** de la población.
 
+### Esquema conceptual
+
+La siguiente figura resume de forma esquemática el argumento general del proyecto: las Áreas Naturales Protegidas pueden generar efectos sobre el bienestar local a través de canales como la preservación ambiental, la recreación, el turismo, la infraestructura y los ingresos. Su función aquí es divulgativa: ayuda a visualizar el mecanismo general que después se explora empíricamente en la investigación.
+
+![Esquema conceptual sobre ANPs y bienestar local](/assets/img/projects/anps/imagen_conceptual_anps.png)
+
+*Figura. Esquema conceptual de los posibles vínculos entre conservación, territorio y bienestar local.*
+
 
 ---
 
@@ -75,6 +83,15 @@ Estos resultados permiten interpretar a las ANPs no solo como instrumentos de co
 
 \*p<0.10, \*\*p<0.05
 
+### Visualización territorial de la marginación
+
+La siguiente visualización muestra la distribución territorial del índice de marginación en relación con las áreas de incidencia de 10 km alrededor de las Áreas Naturales Protegidas. Su función es descriptiva: permite observar el contexto espacial en el que se desarrolla el análisis y la localización de los municipios cercanos a ANPs.
+
+![Índice de marginación y áreas de incidencia de ANPs](/assets/img/projects/anps/figura_a2b_marginacion.png)
+
+*Figura A2B. Índice de marginación municipal y áreas de incidencia para áreas protegidas.*
+
+
 ---
 
 ## 💾 Datos y código {#datos}
@@ -84,7 +101,7 @@ Estos resultados permiten interpretar a las ANPs no solo como instrumentos de co
 **Áreas Naturales Protegidas:**
 - CONANP - Comisión Nacional de Áreas Naturales Protegidas
 - Shapefile de polígonos de ANPs (1900-2020)
-- [Descargar datos](https://github.com/sebasdepapel/anps-impacto)
+- [Descargar datos](https://github.com/socapal/impactos-anps_2020)
 
 **Bienestar local:**
 - INEGI - Censos de Población y Vivienda (2000, 2010, 2020)
@@ -99,7 +116,7 @@ Estos resultados permiten interpretar a las ANPs no solo como instrumentos de co
 
 El código completo para replicar todos los análisis está disponible en GitHub:
 
-[📦 Repositorio GitHub: anps-impacto](https://github.com/sebasdepapel/anps-impacto)
+[📦 Repositorio GitHub: impacto-anps](https://github.com/socapal/impactos-anps_2020)
 
 **Estructura del repositorio:**
 ```
@@ -153,7 +170,7 @@ El código completo para replicar todos los análisis está disponible en GitHub
 ### Publicaciones
 
 1. **Documentación de Investigación** (REC-DI-2022-09)  
-   [Descargar PDF]( http://hdl.handle.net/11651/5294)
+   [Descargar PDF]( https://repositorio-digital.cide.edu/themes/Mirage2/scripts/pdfjs/web/viewer.html?file=/bitstream/handle/11651/5294/171805.pdf)
 
 3. **One-pager institucional** (REC-OP-001)  
  En desarrollo. 
@@ -170,8 +187,6 @@ El código completo para replicar todos los análisis está disponible en GitHub
   [Ver en GitHub](https://github.com/socapal/impactos-anps_2020/blob/main/presentacion-final/examen-de-titulacion_21.09.22.pdf)
 
 ---
-
-
 
 ## 🔄 Versiones y cambios
 
@@ -200,13 +215,13 @@ Ocampo Palacios, Sebastián. "Impacto de las áreas naturales protegidas en la m
 
 ### Código
 ```
-Ocampo Palacios, S. (2026). Código replicable para  "Impacto de las áreas naturales protegidas en la marginación y el ingreso municipa". Repositorio de Github. 
+Ocampo Palacios, S. (2026). Código replicable para  "Impacto de las áreas naturales protegidas en la marginación y el ingreso municipal". Repositorio de Github. 
 https://github.com/socapal/impactos-anps_2020
 ```
 
 ---
 
-## 🧩 Knowledge Brick: Conceptos clave
+## 🧩 Bloques de conocimiento: Conceptos clave
 
 ### ¿Qué son las Áreas Naturales Protegidas?
 
@@ -219,6 +234,14 @@ Las ANPs son porciones terrestres o acuáticas del territorio nacional represent
 - Áreas de Protección de Recursos Naturales
 - Áreas de Protección de Flora y Fauna
 - Santuarios
+
+### ¿Por qué importa la categoría de ANP?
+
+Las categorías de protección no son equivalentes entre sí. Cada una permite distintos tipos de actividades en sus zonas núcleo y de amortiguamiento, lo que ayuda a explicar por qué los efectos sobre bienestar local pueden variar entre categorías.
+
+![Tabla 1.3. Subzonas permitidas por categoría de ANP](/assets/img/projects/anps/tabla_1_3_subzonas.png)
+
+*Tabla 1.3. Subzonas permitidas por categoría de ANP. Elaboración propia con base en la LGEEPA.*
 
 ## 💬 Comentarios y contacto
 
