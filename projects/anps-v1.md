@@ -39,7 +39,7 @@ La siguiente figura resume de forma esquemática el argumento general del proyec
   <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Working Paper (PDF)</a>
   <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Policy Brief</a>
   <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📊 One-pager</a>
-  <a href="https://refugioeconomico.mx/anps-bienestar" class="btn btn-secondary">📝 Post divulgativo</a>
+  <a href="https://refugioeconomico.substack.com/" class="btn btn-secondary">📝 Post divulgativo</a>
 </div>
 
 ---
