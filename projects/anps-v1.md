@@ -24,9 +24,11 @@ Estos resultados permiten interpretar a las ANPs no solo como instrumentos de co
 
 La siguiente figura resume de forma esquemática el argumento general del proyecto: las Áreas Naturales Protegidas pueden generar efectos sobre el bienestar local a través de canales como la preservación ambiental, la recreación, el turismo, la infraestructura y los ingresos. Su función aquí es divulgativa: ayuda a visualizar el mecanismo general que después se explora empíricamente en la investigación.
 
-![Esquema conceptual sobre ANPs y bienestar local](/assets/img/projects/anps/imagen_conceptual_anps.png)
-
 *Figura. Esquema conceptual de los posibles vínculos entre conservación, territorio y bienestar local.*
+<img src="/assets/img/projects/anps/imagen_conceptual_anps.png"
+     alt="Mecanismo conceptual de ANPs y bienestar"
+     style="width: 100%; max-width: 720px; height: auto; display: block; margin: 1rem auto;">
+**Fuente:** Elaboración propia con base en el diagrama de Naidoo et al, 2019. 
 
 
 ---
@@ -87,10 +89,11 @@ La siguiente figura resume de forma esquemática el argumento general del proyec
 
 La siguiente visualización muestra la distribución territorial del índice de marginación en relación con las áreas de incidencia de 10 km alrededor de las Áreas Naturales Protegidas. Su función es descriptiva: permite observar el contexto espacial en el que se desarrolla el análisis y la localización de los municipios cercanos a ANPs.
 
-![Índice de marginación y áreas de incidencia de ANPs](/assets/img/projects/anps/figura_a2b_marginacion.png)
-
 *Figura A2B. Índice de marginación municipal y áreas de incidencia para áreas protegidas.*
 
+<img src="/assets/img/projects/anps/figura_a2b_marginacion.png"
+     alt="Índice de marginación y áreas de incidencia de ANPs"
+     style="width: 100%; max-width: 980px; height: auto; display: block; margin: 1rem auto;">
 
 ---
 
@@ -239,9 +242,12 @@ Las ANPs son porciones terrestres o acuáticas del territorio nacional represent
 
 Las categorías de protección no son equivalentes entre sí. Cada una permite distintos tipos de actividades en sus zonas núcleo y de amortiguamiento, lo que ayuda a explicar por qué los efectos sobre bienestar local pueden variar entre categorías.
 
-![Tabla 1.3. Subzonas permitidas por categoría de ANP](/assets/img/projects/anps/tabla_1_3_subzonas.png)
-
 *Tabla 1.3. Subzonas permitidas por categoría de ANP. Elaboración propia con base en la LGEEPA.*
+
+<img src="/assets/img/projects/anps/tabla_1_3_subzonas.png"
+     alt="Subzonas permitidas por categoría de ANP"
+     style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 1rem auto;">
+     
 
 ## 💬 Comentarios y contacto
 
