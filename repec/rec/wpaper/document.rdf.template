@@ -1,0 +1,14 @@
+Template-Type: ReDIF-Paper 1.0
+Author-Name: Apellido, Nombre
+Author-Email: autor@refugioeconomico.mx
+Author-Workplace-Name: Refugio Economico
+Title: Titulo en ASCII sin acentos
+Abstract: Resumen breve en ASCII sin acentos.
+Keywords: palabra-clave-1; palabra-clave-2
+Creation-Date: YYYY-MM
+Number: YYYY-##
+Classification-JEL: C10; D20
+File-URL: https://policy.refugioeconomico.mx/assets/pdfs/REC-WP-YYYY-##-slug-v1.0.pdf
+File-Format: Application/pdf
+File-Function: Full text
+Handle: RePEc:rec:wpaper:YYYY-##
