@@ -11,14 +11,12 @@ permalink: /working-papers/
 
 <div class="card">
   <strong>Leer en Substack:</strong>
-  <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
-  <a href="{{ site.substack_pc }}">Punto Común</a>
+  <a href="{{ site.substack_rec }}">Refugio Económico</a> 
 </div>
 
 <div class="card">
   <strong>Archivo y código:</strong>
-  <a href="{{ site.github_profile }}">GitHub</a> ·
-  <a href="{{ site.notion_publications }}">Publicaciones (Notion)</a>
+  <a href="{{ site.github_profile }}">GitHub</a> 
 </div>
 
 
@@ -46,9 +44,8 @@ Esta investigación evalúa el impacto causal de las Áreas Naturales Protegidas
 Los resultados preliminares muestran efectos heterogéneos por categoría de ANP: mientras que las categorías menos restrictivas (p.ej. Áreas de Protección de Flora y Fauna) muestran impactos positivos en bienestar, las categorías más restrictivas presentan señales negativas, sugiriendo tensiones entre conservación y desarrollo local.
 
 **Temas:** Conservación · Áreas Naturales Protegidas · Bienestar · México  
-**Metodología:** Diferencias en diferencias escalonado · Análisis espacial  
-**JEL Codes:** Q23, Q28, I32, R11  
-**Datos:** INEGI, CONANP, CONEVAL (2000-2020)
+**Metodología:** Emparejamiento (PSM)   
+**Datos:** INEGI, CONANP, CONEVAL (2020)
 
 <div class="publication-links">
   <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Descargar PDF</a>
@@ -63,8 +60,8 @@ Los resultados preliminares muestran efectos heterogéneos por categoría de ANP
 <div class="info-box">
 <strong>En desarrollo:</strong>
 
-- **REC-WP-2025-02** · Evaluación experimental en política habitacional: Diseño e implementación
-- **REC-WP-2026-01** · Riesgo climático y mercados de vivienda en México
+- **REC-WP-2026-01** · Hacia Un Refugio Económico: Interacción de las declaratorias de desastres en el mercado de la *Vivienda de Interés Social* en México
+
 </div>
 
 ---
@@ -75,7 +72,6 @@ Los resultados preliminares muestran efectos heterogéneos por categoría de ANP
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico Working Paper 
 REC-WP-YYYY-##. Disponible en: {{ '/assets/pdfs/REC-WP-YYYY-##-[slug]-v1.0.pdf' | absolute_url }}
 ```
-
 **Para versiones publicadas en RePEc:**
 ```
 Ocampo Palacios, S. (2025). [Título]. Refugio Económico Working Paper 
@@ -92,7 +88,6 @@ Los Working Papers de Refugio Económico:
 - ✅ Incluyen todos los resultados, incluidos robustness checks
 - ✅ Proveen datos y código para replicación completa
 - ✅ Son versiones preliminares sujetas a revisión
-- ✅ Están registrados en RePEc para máxima visibilidad
 
 **Comentarios y sugerencias:** Se agradecen comentarios en todas las versiones. Contacto: [contacto@refugioeconomico.mx](mailto:contacto@refugioeconomico.mx)
 
@@ -100,14 +95,9 @@ Los Working Papers de Refugio Económico:
 
 ## Series RePEc
 
-Refugio Económico está registrado en RePEc (Research Papers in Economics), lo que permite:
+Refugio Económico busca registrarse en RePEc (Research Papers in Economics), lo que permitirá:
 
 - Indexación en IDEAS y EconPapers
 - Rastreo de citas y descargas
 - Integración con perfiles de investigadores
 - Mayor visibilidad internacional
-
-**Código de archivo:** `rec`  
-**Serie Working Papers:** `rec:wpaper`
-
-[Ver serie completa en RePEc →](#)
