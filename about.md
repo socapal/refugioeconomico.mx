@@ -12,13 +12,11 @@ permalink: /about/
 <div class="card">
   <strong>Leer en Substack:</strong>
   <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
-  <a href="{{ site.substack_pc }}">Punto Común</a>
 </div>
 
 <div class="card">
   <strong>Archivo y código:</strong>
   <a href="{{ site.github_profile }}">GitHub</a> ·
-  <a href="{{ site.notion_publications }}">Publicaciones (Notion)</a>
 </div>
 
 
@@ -90,7 +88,7 @@ Bases de datos curadas, documentadas y listas para usar en investigación.
 
 **Sebastián Ocampo Palacios** es economista por el Centro de Investigación y Docencia Económicas (CIDE) y maestrante en Políticas Públicas por la Universidad Iberoamericana. Actualmente trabaja en la Coordinación de Evaluación e Información Institucional del INFONAVIT, donde colabora en proyectos de transformación institucional digital, análisis económico y diseño de política pública. A lo largo de su trayectoria ha participado en iniciativas orientadas a conectar datos, instituciones y decisiones públicas, con especial interés en cómo la evidencia puede convertirse en herramientas útiles para la innovación pública, la transparencia y el aprendizaje institucional.
 
-En el Infonavit impulsó el Seminario de Investigación, la colaboración con J-PAL LAC para el desarrollo del Laboratorio de Evaluación e Innovación y distintos convenios de colaboración académica e institucional. Antes de ello participó en la Agencia Digital de Innovación Pública de la Ciudad de México, el Laboratorio Nacional de Políticas Públicas, la Conferencia Mariano Otero y actividades del Centro de Estudios Espinosa Yglesias. Cuenta con un diplomado en Evaluación de Políticas Públicas por la UAM Xochimilco. Ha publicado en Nexos y en la Revista de Vivienda Infonavit, y su trabajo —en colaboración con colegas muy valiosos— ha sido reconocido en el Premio Ibero Construye (2024), el Datatón de la Agencia Digital de Innovación Pública (2021) y el Hackatón BBVA (2022). En Refugio Económico reúne buena parte de esa agenda: usar la economía pública, los datos y el análisis institucional para producir conocimiento útil, accesible y con propósito público.
+En el Infonavit coordinó el Seminario de Investigación, la colaboración con J-PAL LAC para el desarrollo del Laboratorio de Evaluación e Innovación y distintos convenios de colaboración académica e institucional. Antes de ello participó en la Agencia Digital de Innovación Pública de la Ciudad de México, el Laboratorio Nacional de Políticas Públicas, la Conferencia Mariano Otero y como estudiante en el Centro de Estudios Espinosa Yglesias. Cuenta con un diplomado en Evaluación de Políticas Públicas por la UAM Xochimilco. Ha publicado en Nexos y en la Revista de Vivienda Infonavit, y su trabajo —en colaboración con colegas muy valiosos— ha sido reconocido en el Premio Ibero Construye (2024), el Datatón de la Agencia Digital de Innovación Pública (2021) y el Hackatón BBVA (2022). En Refugio Económico reúne buena parte de esa agenda: usar la economía pública, los datos y el análisis institucional para producir conocimiento útil, accesible y con propósito público.
 
 **Otros espacios:**
 - [Refugio Económico](https://refugioeconomico.substack.com/) - Ensayos y divulgación
@@ -104,7 +102,7 @@ En el Infonavit impulsó el Seminario de Investigación, la colaboración con J-
 Refugio Económico integra colaboraciones con investigadores, funcionarios públicos y especialistas comprometidos con el análisis riguroso y el bienestar común.
 
 **Colaboradores:**
-- Anna Karina Pérez Peña 
+En desarollo. 
 
 **¿Quieres colaborar?** Envía tu propuesta a [socapal@outlook.com](mailto:socapal@outlook.com)
 
@@ -112,7 +110,7 @@ Refugio Económico integra colaboraciones con investigadores, funcionarios públ
 
 ## Financiamiento
 
-Refugio Económico es un proyecto independiente sin financiamiento institucional. Las opiniones expresadas son del autor y no representan a ninguna institución.
+Refugio Económico es un proyecto independiente sin financiamiento institucional. Las opiniones expresadas son responsabilidad de sus autores y no representan a ninguna institución.
 
 ---
 

@@ -36,10 +36,10 @@ La siguiente figura resume de forma esquemática el argumento general del proyec
 ## 📥 Descargas
 
 <div class="publication-links">
-  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Working Paper (PDF)</a>
-  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Policy Brief</a>
-  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📊 One-pager</a>
-  <a href="https://refugioeconomico.substack.com/" class="btn btn-secondary">📝 Post divulgativo</a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Documento de Investigación </a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">🖥️ Presentación ejecutiva</a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">💻 Repositorio de replicación</a>
+ <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
 </div>
 
 ---

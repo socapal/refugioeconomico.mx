@@ -11,13 +11,11 @@ title: Inicio
 <div class="card">
   <strong>Leer en Substack:</strong>
   <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
-  <a href="{{ site.substack_pc }}">Punto Común</a>
 </div>
 
 <div class="card">
   <strong>Archivo y código:</strong>
   <a href="{{ site.github_profile }}">GitHub</a> ·
-  <a href="{{ site.notion_publications }}">Publicaciones</a>
 </div>
 
 # Refugio Económico
@@ -43,7 +41,7 @@ Idealmente, durante 2026 realizaremos una exploración que incorpora la dimensi�
 
 La suma de beneficios puede utilizarse como cálculo preeliminar de los beneficios parciales que las áreas naturales pueden tener en la población.
 
-[📄 Policy Brief (PDF)]({{ '/downloads/anps-v1/' | relative_url }}) · [📑 Working Paper]({{ '/downloads/anps-v1/' | relative_url }}) · [📋 Proyecto completo]({{ '/projects/anps-v1/' | relative_url }}) · [📝 Post divulgativo](https://refugioeconomico.mx/anps-bienestar)
+ [📋 Proyecto completo]({{ '/projects/anps-v1/' | relative_url }}) 
 
 ---
 
@@ -68,9 +66,7 @@ La suma de beneficios puede utilizarse como cálculo preeliminar de los benefici
 ## Otros Espacios
 
 - [Refugio Económico (Substack)](https://refugioeconomico.substack.com/) — Esquema de divulgación en formato de ensayos cortos y accesibles para los análisis de Refugio Económio.
-- [Punto Común](https://puntocomun.substack.com/) — Blog personal que ayuda a situar las investigaciones desde una posición personal.
 - [GitHub](https://github.com/socapal) — Código y datos abiertos, scripts reproducibles y documentos técnicos. 
-- [Publicaciones (Notion)](https://frill-bat-319.notion.site/3944a93270fe4df8b191d9d00048a9e6?v=cb87345890a74f3dbd7ad27c71b673eb)
 
 ---
 
