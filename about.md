@@ -61,7 +61,8 @@ Documentamos decisiones metodológicas, limitaciones y cambios entre versiones.
 
 Agenda 2026
 
-Nuestra agenda se agrupa en cuatro grandes ejes:
+La agenda de investigación de Refugio Económico se centra en la valorización de recursos y la deliberación como mecanismos clave para el diseño de esquemas de gobernanza, desarrollo de capacidades gubernamentales, así como el  financiamiento y la efectividad de las intervenciones públicas.  Nuestra agenda se agrupa en cuatro grandes ejes:
+
 - **Datos Abiertos**: Una agenda de **datos abiertos, transparencia y evidencia**. Esta sección cubre todo lo referente al aprovechamiento de sistemas de información pública, el uso de evidencia para diseño y evaluación de políticas y la comunicación de información de forma accesible y visualmente atractiva.
 
 - **Economía**: Textos sobre **economía pública y bienestar común**. Esta sección intentará recuperar conversaciones respecto de economía pública, distribución de recursos y bienestar en general.
@@ -69,6 +70,8 @@ Nuestra agenda se agrupa en cuatro grandes ejes:
 - **Política pública**: Espacio de **incidencia**. La intención es conectar la investigación con su implementación o la elaboración de políticas públicas (programas para aterrizar los resultados). Fundamentalmente, es aterrizar análisis técnico en lenguaje ciudadano e información para tomadores de decisiones públicas.
 
 - **Instituciones**: Un eje de **gobernanza y ciencia política**. Es necesario narrar al Estado, su funcionamiento y cómo —mediante sus herramientas de planificación y deliberación pública— incide en nosotros como ciudadanos. 
+
+
 ---
 
 ## Publicaciones

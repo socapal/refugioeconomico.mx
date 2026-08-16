@@ -12,13 +12,11 @@ permalink: /policy-briefs/
 <div class="card">
   <strong>Leer en Substack:</strong>
   <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
-  <a href="{{ site.substack_pc }}">Punto Común</a>
 </div>
 
 <div class="card">
   <strong>Archivo y código:</strong>
   <a href="{{ site.github_profile }}">GitHub</a> ·
-  <a href="{{ site.notion_publications }}">Publicaciones (Notion)</a>
 </div>
 
 # Policy Briefs
@@ -31,7 +29,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 
 ### [Áreas Naturales Protegidas y bienestar local en México]({{ '/projects/anps-v1/' | relative_url }})
 
-**Evaluación causal del impacto de las ANPs sobre indicadores de bienestar local**
+**Evaluación  del impacto de las ANPs sobre indicadores de bienestar local**
 
 <div class="publication-meta">
   <span class="code">REC-PB-001</span> · 
@@ -46,13 +44,12 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 - Los efectos aparecen después de 5-7 años y persisten en el tiempo
 
 **Temas:** Conservación · ANPs · Bienestar · México  
-**Metodología:** Diferencias en diferencias escalonado (Callaway-Sant'Anna)  
-**JEL Codes:** Q23, Q28, I32, R11
 
 <div class="publication-links">
-  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Descargar PDF</a>
-  <a href="{{ '/projects/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
-  <a href="https://refugioeconomico.mx/anps-bienestar" class="btn btn-secondary">📝 Post divulgativo</a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn">📄 Documento de Investigación </a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">🖥️ Presentación ejecutiva</a>
+  <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">💻 Repositorio de replicación</a>
+ <a href="{{ '/downloads/anps-v1/' | relative_url }}" class="btn btn-secondary">📋 Página del proyecto</a>
 </div>
 
 ---
@@ -62,7 +59,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 <div class="info-box">
 <strong>En preparación:</strong>
 
-- **REC-PB-002** · Desastres sísmicos y mercado de vivienda en México (Febrero 2026)
+- **REC-PB-002** · Hacia un Refugio Económico: Interacción de las declaratorias de desastres en el mercado de la vivienda en México. (Septiembre de 2026)
 - **REC-PB-003** · Evaluación de impacto en política habitacional (Marzo 2026)
 </div>
 
@@ -79,12 +76,6 @@ REC-PB-###. Disponible en: {{ '/assets/pdfs/REC-PB-###-[slug]-v1.0.pdf' | absolu
 
 ## Sobre los Policy Briefs
 
-Los Policy Briefs de Refugio Económico:
-
-- ✅ Se basan en análisis empírico riguroso
-- ✅ Incluyen metodología clara y replicable
-- ✅ Presentan recomendaciones específicas y accionables
-- ✅ Son de acceso abierto y citable
-- ✅ Incluyen datos y código cuando es posible
+La sección de Policy Briefs de Refugio Económico surge para aliviar la tensión que surge de incentivos diferenciados en los productos finales: una investigación requiere de rigor y particularización, mientras que una política pública requiere de amplitud, coherencia interna y resultados políticamente valiosos. Por lo mismo, es contraproducente intentar que un mismo artefacto satisfaga simultáneamente ambas funciones. La solución propuesta no es renunciar a ninguna, sino segmentar productos: construir investigación con estándares académicos claros y, en paralelo, traducir evidencia en instrumentos de política bajo reglas institucionales propias. Este la manifestiación principal del espíritu de Refugio Económico para "conectar investigación académica con práctica institucional".  
 
 **¿Quieres colaborar?** Envía tu propuesta a [contacto@refugioeconomico.mx](mailto:contacto@refugioeconomico.mx)
