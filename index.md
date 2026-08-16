@@ -10,12 +10,12 @@ title: Inicio
 
 <div class="card">
   <strong>Leer en Substack:</strong>
-  <a href="{{ site.substack_rec }}">Refugio Económico</a> ·
+  <a href="{{ site.substack_rec }}">Refugio Económico</a> 
 </div>
 
 <div class="card">
   <strong>Archivo y código:</strong>
-  <a href="{{ site.github_profile }}">GitHub</a> ·
+  <a href="{{ site.github_profile }}">GitHub</a> 
 </div>
 
 # Refugio Económico
