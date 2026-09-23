@@ -177,3 +177,18 @@ a:hover{ border-bottom-color: rgba(219,100,127,.45); }
   font-size:.78rem;
   font-weight:600;
 }
+
+/* Directorio de recursos de vivienda */
+.vivienda-resource { overflow-wrap: anywhere; }
+.vivienda-resource h2 { margin-top: 0; font-size: 1.35rem; }
+.vivienda-resource dl { margin: 12px 0; }
+.vivienda-resource dt { font-weight: 600; }
+.vivienda-resource dd { margin: 0 0 8px; }
+#vivienda-filter select { max-width: 100%; padding: 8px; font: inherit; }
+#vivienda-filter label { display: block; font-weight: 600; margin-bottom: 6px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 600px) {
+  .navbar { flex-wrap: wrap; padding: 14px 18px; }
+  .nav { margin-left: 0; }
+  .container { padding-left: 18px; padding-right: 18px; }
+}

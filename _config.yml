@@ -13,4 +13,9 @@ notion_publications: "https://frill-bat-319.notion.site/3944a93270fe4df8b191d9d0
 header_pages:
   - policy_briefs.md
   - working_papers.md
+  - resources/vivienda.md
   - about.md
+
+exclude:
+  - scripts
+  - tests
