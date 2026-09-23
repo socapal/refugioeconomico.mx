@@ -40,9 +40,11 @@ description: Directorio de indicadores, informes y análisis externos sobre vivi
 
 <div class="info-box">
   <h2>Nota metodológica</h2>
-  <p>Esta colección es una curaduría de recursos externos. Los materiales enlazados pertenecen a sus autores o instituciones originales; su inclusión no implica autoría ni respaldo editorial de Refugio Económico. Las etiquetas y los datos bibliográficos proceden de la colección original y pueden revisarse mediante contribuciones al repositorio. Los campos ausentes se identifican sin inferir información.</p>
-  <p>Fuente original: <a href="{{ catalog.source_url | escape }}">colección de Notion</a>, curada por Sebastián Ocampo-Palacios desde 2023. La exportación inicial contiene nueve recursos; no se verificó la vigencia de todos los enlaces externos.</p>
-  <p>La fuente pública canónica y versionada es el <a href="https://github.com/socapal/refugioeconomico.mx/blob/main/_data/indicadores_vivienda.yml">catálogo en GitHub</a>. Última actualización del catálogo: <time datetime="{{ catalog.last_updated | escape }}">{{ catalog.last_updated | date: "%d/%m/%Y" }}</time>.</p>
+  <p>Esta colección es una curaduría de recursos externos. Los materiales enlazados pertenecen a sus autores o instituciones originales; su inclusión no implica autoría ni respaldo editorial de Refugio Económico.
+  
+  </p>
+  <p>Fuente original: <a href="{{ catalog.source_url | escape }}">colección de Notion</a>, curada por Sebastián Ocampo-Palacios desde 2023.  Para citar este recurso: Refugio Económico. Indicadores e informes sobre la vivienda. Disponible en: https://policy.refugioeconomico.mx/resources/vivienda/. 
+ Última actualización del catálogo: <time datetime="{{ catalog.last_updated | escape }}">{{ catalog.last_updated | date: "%d/%m/%Y" }}</time>.</p>
 </div>
 
 <script src="{{ '/assets/js/vivienda.js' | relative_url }}" defer></script>
