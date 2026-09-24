@@ -5,6 +5,11 @@ GitHub es la fuente pública canónica y versionada. Jekyll publica el catálogo
 como fuente de incorporación de recursos; no se crean artículos ni se copian los
 materiales enlazados. Las actualizaciones se revisan mediante ramas y Pull Requests.
 
+La ruta se conserva como landing temática Vivienda: el catálogo aparece bajo
+`#indicadores`, junto a la descripción de Radar Urbano. La landing general está
+en `/resources/`. Véase [Arquitectura de Recursos](ARQUITECTURA_RECURSOS.md) para
+la navegación, la integración de ramas y el contrato de futuras ediciones.
+
 ## Fuente y decisiones de la importación
 
 Se importaron los nueve registros del CSV `Indicadores e informes sobre la vivienda
