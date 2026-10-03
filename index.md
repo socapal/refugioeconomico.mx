@@ -45,7 +45,7 @@ La suma de beneficios puede utilizarse como cálculo preeliminar de los benefici
 
 ---
 
-## 📚 Series
+## 📚 Publicaciones
 
 <div class="series-grid">
   <div class="series-card">
@@ -58,6 +58,11 @@ La suma de beneficios puede utilizarse como cálculo preeliminar de los benefici
     <h3>Working Papers</h3>
     <p>Investigaciones técnicas con metodología detallada, análisis completo y, en los mejores casos, evidencia replicable.</p>
     <a href="{{ '/working-papers/' | relative_url }}" class="btn">Ver todos →</a>
+  </div>
+  <div class="series-card">
+    <h3>Recursos</h3>
+    <p>Materiales de consulta, curadurías, datos, indicadores y herramientas producidos o seleccionados por Refugio Económico.</p>
+    <a href="{{ '/resources/' | relative_url }}" class="btn">Explorar recursos →</a>
   </div>
 </div>
 

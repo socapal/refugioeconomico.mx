@@ -1,0 +1,33 @@
+name: Preparar actualización de recursos de vivienda
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-indicadores.txt
+      - name: Consultar Notion y preparar propuesta
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
+          NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+        run: python scripts/sync_notion_indicadores.py --summary resumen-indicadores.json
+      - name: Adjuntar resumen
+        run: |
+          echo '### Propuesta de sincronización (sin commits)' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat resumen-indicadores.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: propuesta-indicadores-vivienda
+          path: |
+            _data/indicadores_vivienda.yml
+            resumen-indicadores.json
+          retention-days: 14

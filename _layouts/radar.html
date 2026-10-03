@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<nav aria-label="Ruta de navegación">
+  <a href="{{ '/resources/' | relative_url }}">Recursos</a> /
+  <a href="{{ '/resources/vivienda/' | relative_url }}">Vivienda</a> /
+  <span aria-current="page">Radar Urbano</span>
+</nav>
+<header class="hero">
+  <p>Radar Urbano</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d/%m/%Y' }}</time></p>
+</header>
+<p>{% for tag in page.tags %}<span class="badge">{{ tag | escape }}</span> {% endfor %}</p>
+{{ content }}
+{% if page.source_url %}<p><a href="{{ page.source_url | escape }}" rel="external">Fuente original de esta edición</a></p>{% endif %}
+<p><a href="{{ '/resources/vivienda/' | relative_url }}">← Volver a Vivienda</a></p>

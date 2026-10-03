@@ -40,8 +40,7 @@ Documentos de análisis breve (4-6 páginas) con hallazgos empíricos y recomend
 **En una mirada:**
 - Las ANPs generan efectos heterogéneos según su categoría de protección
 - Categorías menos restrictivas (Flora y Fauna) mejoran marginación e ingreso
-- Categorías más restrictivas (Reservas de Biosfera) muestran efectos negativos
-- Los efectos aparecen después de 5-7 años y persisten en el tiempo
+- Categorías más restrictivas (Reservas de Biosfera) muestran efectos potencialmente negativos
 
 **Temas:** Conservación · ANPs · Bienestar · México  
 

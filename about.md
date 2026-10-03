@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sobre REC
+title: Acerca de
 permalink: /about/
 ---
 
