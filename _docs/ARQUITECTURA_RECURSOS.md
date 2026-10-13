@@ -20,25 +20,29 @@ permalink y una tarjeta en Recursos; no dependen de la plataforma de origen.
 ## Radar Urbano: contrato para futuras ediciones
 
 La colección `radar` está configurada con `output: true` y layout `radar`, que
-hereda de `page` y `default`. Actualmente no tiene documentos. Cuando exista una
-fuente fiable, cada edición será `_radar/YYYY-MM-DD.md`, con front matter:
+hereda de `page` y `default`. Cada edición será `_radar/YYYY-MM-DD.md`, con front matter:
 
 ```yaml
 title: Título editorial de la edición
 date: YYYY-MM-DD
+insight: Idea transversal breve de la edición
 tags: [Vivienda, Políticas urbanas]
-source_url: https://fuente-original-de-la-edicion
 ```
 
 El nombre ISO del archivo determina la URL estable
 `/resources/vivienda/radar/YYYY-MM-DD/`; la fecha declarada debe coincidir con él.
-El cuerpo contendrá la edición revisada en Markdown. Este ejemplo documenta el
-contrato y no se publica como contenido. Al incorporar ediciones reales, se podrá
-añadir el índice `/resources/vivienda/radar/` y enlazarlo desde Vivienda.
+El cuerpo contiene la edición revisada en Markdown y el índice público está en
+`/resources/vivienda/radar/`.
 
-La futura sincronización requiere identificar la fuente original en Notion,
-propiedades y permisos, así como reglas de selección, revisión, actualización e
-identidad de ediciones. No se crean por ahora sincronizadores ni workflows nuevos.
+Notion puede funcionar como fuente editorial interna para preparar Radar, pero no
+forma parte del contrato público. Las ediciones no deben incluir `source_url`, URLs
+de Notion ni enlaces a páginas de trabajo internas. El layout público tampoco debe
+renderizar metadatos de procedencia interna. La trazabilidad operativa entre Notion
+y GitHub se conserva en el proceso editorial, ramas y Pull Requests, no en el portal.
+
+La sincronización debe identificar internamente la edición de origen, sus reglas de
+selección y su identidad antes de generar el Markdown público. El paso de publicación
+requiere revisión humana mediante Pull Request.
 
 ## Integración de ramas
 
@@ -92,5 +96,4 @@ del sincronizador como parte de la reorganización editorial.
   fecha de Radar y la herencia de Google tag. No se agregó al repositorio.
 
 La verificación no comprueba disponibilidad de enlaces externos ni recepción de
-eventos en la propiedad de Google Analytics. La API autenticada de Notion sigue
-pendiente de credenciales; no se necesitó para estos cambios editoriales.
+eventos en la propiedad de Google Analytics.
