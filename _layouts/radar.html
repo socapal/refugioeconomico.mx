@@ -13,5 +13,4 @@ layout: page
 </header>
 <p>{% for tag in page.tags %}<span class="badge">{{ tag | escape }}</span> {% endfor %}</p>
 {{ content }}
-{% if page.source_url %}<p><a href="{{ page.source_url | escape }}" rel="external">Fuente original de esta edición</a></p>{% endif %}
 <p><a href="{{ '/resources/vivienda/' | relative_url }}">← Volver a Vivienda</a></p>
