@@ -60,7 +60,7 @@ description: "Recursos sobre vivienda y políticas urbanas: Radar Urbano e Indic
   <p>Esta colección es una curaduría de recursos externos. Los materiales enlazados pertenecen a sus autores o instituciones originales; su inclusión no implica autoría ni respaldo editorial de Refugio Económico.
   
   </p>
-  <p>Fuente original: <a href="{{ catalog.source_url | escape }}">colección de Notion</a>, curada por Sebastián Ocampo-Palacios desde 2023.  Para citar este recurso: Refugio Económico. Indicadores e informes sobre la vivienda. Disponible en: https://policy.refugioeconomico.mx/resources/vivienda/. 
+  <p>Colección curada por Sebastián Ocampo-Palacios desde 2023.  Para citar este recurso: Refugio Económico. Indicadores e informes sobre la vivienda. Disponible en: https://policy.refugioeconomico.mx/resources/vivienda/. 
  Última actualización del catálogo: <time datetime="{{ catalog.last_updated | escape }}">{{ catalog.last_updated | date: "%d/%m/%Y" }}</time>.</p>
 </div>
 
