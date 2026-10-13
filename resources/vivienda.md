@@ -8,6 +8,7 @@ description: "Recursos sobre vivienda y políticas urbanas: Radar Urbano e Indic
 {% assign catalog = site.data.indicadores_vivienda %}
 {% assign resources = catalog.resources | where: "status", "activo" %}
 {% assign tags = resources | map: "tags" | join: "," | split: "," | uniq | sort %}
+{% assign radar_editions = site.radar | sort: 'date' | reverse %}
 
 <nav aria-label="Ruta de navegación"><a href="{{ '/resources/' | relative_url }}">Recursos</a> / <span aria-current="page">Vivienda</span></nav>
 
@@ -19,6 +20,11 @@ description: "Recursos sobre vivienda y políticas urbanas: Radar Urbano e Indic
 <section class="card" aria-labelledby="radar-urbano">
   <h2 id="radar-urbano">Radar Urbano</h2>
   <p>Curaduría semanal de investigación, informes y análisis sobre mercados de vivienda, resiliencia urbana, planeación y gobernanza urbana, y evaluación de políticas públicas.</p>
+  {% if radar_editions.size > 0 %}
+    {% assign latest_radar = radar_editions.first %}
+    <p><strong>Última edición:</strong> <a href="{{ latest_radar.url | relative_url }}">{{ latest_radar.title | escape }}</a> · <time datetime="{{ latest_radar.date | date: '%Y-%m-%d' }}">{{ latest_radar.date | date: '%d/%m/%Y' }}</time></p>
+  {% endif %}
+  <a class="btn" href="{{ '/resources/vivienda/radar/' | relative_url }}">Explorar Radar Urbano →</a>
 </section>
 
 <section aria-labelledby="indicadores">
