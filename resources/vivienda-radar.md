@@ -24,6 +24,9 @@ description: "Curaduría semanal de investigación, informes y análisis sobre v
     <p>Última edición</p>
     <h2 id="ultima-edicion"><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2>
     <p><time datetime="{{ latest.date | date: '%Y-%m-%d' }}">{{ latest.date | date: '%d/%m/%Y' }}</time></p>
+    {% if latest.insight %}
+      <p><strong>Insight:</strong> {{ latest.insight | escape }}</p>
+    {% endif %}
     <p>{% for tag in latest.tags %}<span class="badge">{{ tag | escape }}</span> {% endfor %}</p>
     <a class="btn" href="{{ latest.url | relative_url }}">Leer edición →</a>
   </section>
@@ -35,6 +38,9 @@ description: "Curaduría semanal de investigación, informes y análisis sobre v
       <article class="series-card">
         <p><time datetime="{{ edition.date | date: '%Y-%m-%d' }}">{{ edition.date | date: '%d/%m/%Y' }}</time></p>
         <h3><a href="{{ edition.url | relative_url }}">{{ edition.title | escape }}</a></h3>
+        {% if edition.insight %}
+          <p>{{ edition.insight | escape }}</p>
+        {% endif %}
         <p>{% for tag in edition.tags %}<span class="badge">{{ tag | escape }}</span> {% endfor %}</p>
       </article>
     {% endfor %}
